@@ -168,12 +168,12 @@ def main():
     ##################
     # Додаткові тести:
     print("\n\n\n* Additional tests: *")
+    print("\nTest #1")
     with catch_my_exceptions(Exception):
-        print("\nTest #1")
         bad_name = Name("john") # Виведення: Wrong name
 
+    print("\nTest #2")
     with catch_my_exceptions(Exception):
-        print("\nTest #2")
         bad_phone = Phone("333") # Виведення: Wrong phone
 
     print("\nTest #3")
